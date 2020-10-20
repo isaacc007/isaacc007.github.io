@@ -10,7 +10,14 @@
 
 .foto_perfil:hover{
 	transition: all 0.5s;
-    filter: blur(5px);
+    	filter: blur(5px);
+}
+
+.linha:hover{
+	height:70px;
+	background-color: darkblue;
+	cursor: pointer;
+	border-radius: 10px;
 }
 </style>
 
