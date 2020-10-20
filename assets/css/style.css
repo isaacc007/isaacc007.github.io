@@ -5,12 +5,12 @@
 <style>
 .foto_perfil{
     transition: all 0.5s;
-    cursor: pointer;
 }
 
 .foto_perfil:hover{
 	transition: all 0.5s;
     	filter: blur(5px);
+	cursor: pointer;
 }
 
 .linha:hover{
@@ -26,9 +26,12 @@ body{
 	background-color: #f7f7f7;
 }
 
-#topo{
+.linha{
 	height:70px;
 	background-color: blue;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.7s;
 }
 
 .foto_perfil{
@@ -36,12 +39,4 @@ body{
 	max-width: 180px;
 	max-height: 180px;
 	border: 2px solid black;
-}
-
-.linha{
-	height:70px;
-	background-color: blue;
-	border-radius: 10px;
-	cursor: pointer;
-	transition: all 0.7s;
 }
