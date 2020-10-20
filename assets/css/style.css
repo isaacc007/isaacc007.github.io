@@ -19,11 +19,13 @@
 	cursor: pointer;
 	border-radius: 10px;
 }
+
 </style>
 
 body{
 	background-color: #f7f7f7;
 }
+
 #topo{
 	height:70px;
 	background-color: blue;
@@ -34,4 +36,12 @@ body{
 	max-width: 180px;
 	max-height: 180px;
 	border: 2px solid black;
+}
+
+.linha{
+	height:70px;
+	background-color: blue;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.7s;
 }
