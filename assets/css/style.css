@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+<style>
+.foto_perfil{
+    transition: all 1.5s;
+    cursor: pointer;
+}
+
+.foto_perfil:hover{
+	transition: all 0.5s;
+    filter: blur(5px);
+}
+</style>
+
+body{
+	background-color: #f7f7f7;
+}
+#topo{
+	height:70px;
+	background-color: blue;
+}
+
+.foto_perfil{
+	border-radius: 50%;
+	max-width: 180px;
+	max-height: 180px;
+	border: 2px solid black;
+}
